@@ -5,7 +5,11 @@
 
 
 def main():
-
+    print("Hello World!")
+    color = "green"
+    print("My favorite color is: ", color)
+    birthday = 22504
+    print("My birthday is: ", birthday)
 
 
     
