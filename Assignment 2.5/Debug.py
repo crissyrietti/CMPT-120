@@ -3,18 +3,19 @@ def main():
 
     #that's not right... how can we make sure it also includes equals 5?
     temp = 5
-    if temp > 5:
+    if temp >= 5:
         print("temp is greater than or equal to 5")
         
     
     #enter your name here
-    name = ""
+    name = "Crissy"
     '''in this if/elif/else, add 4 mispellings of your name for if/elif comparisons, and then have your last elif be elif name = "your properly spelled name" '''
-    if name == "mispelling here":
+    if name == "Crssy":
         print("That's not right!")
-    elif name == "another mispelling":
+    elif name == "Chrissy":
         print("That's not right!")
-    #etc etc, the else can be whatever you want
+    else:
+        print("That's right!")
     
     
     #we're gonna check if a user input number is even
@@ -22,11 +23,11 @@ def main():
     even = input(int("Enter a number to find out if its even or odd"))
     even = int(even)
     #what do we replace the question marks with?
-    if even ? ? == ?:
+    if even % 2 == 0:
         #what would be appropriate in these print statements?
-        print("")
+        print("The input is even")
     else:
-        print("")
+        print("The input is odd")
   
   
     #i'm trying to do math with the numbers 2 and 4, but it's getting 3 and 5... why?
