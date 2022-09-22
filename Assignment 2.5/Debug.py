@@ -32,8 +32,8 @@ def main():
   
     #i'm trying to do math with the numbers 2 and 4, but it's getting 3 and 5... why?
     numbers = [1,2,3,4,5]
-    print(numbers[2])
-    print(numbers[4])
+    print(numbers[1])
+    print(numbers[3])
     print(numbers[4] / numbers[2])
     print(numbers[4] * numbers[2])
     
